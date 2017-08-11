@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/floatWindowBigParent"
+android:orientation="vertical"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@drawable/floating_drawable"
+android:gravity="center">
+
+<TextView
+    android:gravity="center|left"
+    android:id="@+id/floatingTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:textColor="#ffffff"
+    android:text="今天你学习了么"/>
+
+</LinearLayout>
